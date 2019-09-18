@@ -16,4 +16,6 @@ http://localhost:3000/api/v1/companies
 ```
 # docker
 mysqlの依存度は、高いため外だし
+```
 docker-compose up
+```
