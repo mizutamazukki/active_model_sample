@@ -1,0 +1,10 @@
+version: '2'
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_HOST: 127.0.0.1
+    ports:
+      # ローカルでmysqlを動かしてる人の為に4306ポートにしています。
+      - '4306:3306'
