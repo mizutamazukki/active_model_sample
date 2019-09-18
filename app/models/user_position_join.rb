@@ -1,0 +1,2 @@
+class UserPositionJoin < ApplicationRecord
+end

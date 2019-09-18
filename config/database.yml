@@ -1,0 +1,21 @@
+default: &default
+ adapter: mysql2
+ encoding: utf8
+ pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+ username: root
+ password:
+ host: localhost
+
+development:
+ <<: *default
+ database: tensyoku_development
+
+test:
+ <<: *default
+ database: tensyoku_test
+
+production:
+ <<: *default
+ database: tensyoku_production
+ username: root
+ password: 
