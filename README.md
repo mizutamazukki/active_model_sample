@@ -3,7 +3,7 @@
 * Ruby version
 2.3.7
 
-* Usage
+# Usage
 
 - bundle install
 - rails db:create
