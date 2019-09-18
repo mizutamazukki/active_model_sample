@@ -11,3 +11,7 @@
 - rails s
 
 
+# docker Build
+
+## MySQL
+docker-compose up
