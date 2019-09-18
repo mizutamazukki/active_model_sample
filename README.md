@@ -14,5 +14,6 @@ access request
 ```
 http://localhost:3000/api/v1/companies
 ```
-# docker Build
+# docker
+mysqlの依存度は、高いため外だし
 docker-compose up
