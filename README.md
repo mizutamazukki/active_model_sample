@@ -12,6 +12,4 @@
 
 
 # docker Build
-
-## MySQL
 docker-compose up
