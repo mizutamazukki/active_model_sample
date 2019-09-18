@@ -3,12 +3,13 @@ default: &default
  encoding: utf8
  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
  username: root
- password:
- host: localhost
+ password: pass
+ host: 127.0.0.1
 
 development:
  <<: *default
  database: tensyoku_development
+ port: 4306
 
 test:
  <<: *default
@@ -17,5 +18,3 @@ test:
 production:
  <<: *default
  database: tensyoku_production
- username: root
- password: 
